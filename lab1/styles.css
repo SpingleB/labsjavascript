@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.btn {
+    background-color: rgb(237, 172, 237);
+    /* color: aqua; */
+    padding: 20px;
+    border-radius: 15px;
+    font-weight: 600;
+    font-size: 1.2rem;
+    border: 2px solid black;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.btn:active {
+    transform: scale(0.9);
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+
+}
